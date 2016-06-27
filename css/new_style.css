@@ -1,0 +1,64 @@
+.header--inner{
+  background: url('../img/inner-header-bg.jpg') no-repeat center top; 
+  background-size: cover;
+}
+.header--inner .logo{
+  width: 100px;
+}
+.header--inner .logo a{
+  display: block;
+}
+.header--inner .logo a img{
+  display: block;
+  width: 100%;
+}
+.header__bottom-line{
+  height: 50px;
+  background: #b8394c;
+}
+.red-nav{
+	padding: 0;
+	margin: 0;
+}
+.red-nav li{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 75px;
+}
+.red-nav li:last-child{
+	margin-right: 0;
+}
+.red-nav li a{
+	display: inline-block;
+	vertical-align: middle;
+	font: bold 13px/17px Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+.red-nav li a span{
+	border-bottom: 1px solid #fff;
+}
+.red-nav li a:hover span{
+	border-color: transparent;
+}
+.iconbg{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 12px;
+}
+.iconbg--list{
+	background: url(../img/iconbg-list.png) no-repeat left top;
+	width: 19px;
+	height: 22px;
+}
+.iconbg--load{
+	background: url(../img/iconbg-load.png) no-repeat left top;
+	width: 15px;
+	height: 20px;
+}
+.iconbg--call{
+	background: url(../img/iconbg-call.png) no-repeat left top;
+	width: 21px;
+	height: 21px;
+}
